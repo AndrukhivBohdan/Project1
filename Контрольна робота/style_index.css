@@ -1,0 +1,106 @@
+h1{
+    font-family: 'roboto', serif;
+}
+h2{
+    font-family: 'roboto', serif;
+}
+h3{
+    font-family: 'roboto', serif;
+}
+div{
+    position: relative;
+    margin-top: 15px;
+    font-family: 'Roboto Condensed', serif;
+}
+h4{
+    border: 1px solid black;
+    width:auto;
+    margin: 0px;
+    position: absolute;
+    bottom:0px;
+    right:0px;
+    font-size: 1.2em;
+    font-family:'kenia', serif;
+}
+
+table, th, td {
+    border: 1px solid black;
+    padding: 15px;
+    border-collapse: collapse;
+}
+
+#d1{
+    background-color: #00ffff;
+}
+#d2{
+    background-color:#ffe4c4;
+}
+#d3{
+    background-color:#fff8dc;
+}
+#d4{
+    background-color:#7fffd4;
+}
+
+
+#h41{ 
+    background-color:#a52a2a ;
+    color:#ffebcd;
+}
+#h42{
+    background-color:#2f4f4f ;
+    color:#7fff00;
+}
+#h43{
+    background-color:#8a2be2 ;
+    color:#ffff00;
+}
+#h44{
+    background-color:black;
+    color:#f5deb3;
+}
+p{
+    color:black;
+    padding: 3px;
+}
+@media(max-width:768px){
+div{
+    display: flex;
+}
+}
+@media(min-width:769px) and (max-width:992px){
+section{
+    display: flex;
+    flex-wrap: wrap;
+}
+div{
+    margin: 10px;
+    flex: 1 350px;
+}
+img{
+    margin-bottom: 30px;
+}
+}
+@media(min-width:993px) and (max-width:1200px){
+    section{
+    display: flex;
+    flex-flow: row wrap;
+}
+div{
+    margin: 10px;
+    flex: 1 25%;
+}
+}
+@media(min-width:1201px){
+    section{
+    display: flex;
+    flex-flow: row wrap;
+}
+div{
+    margin: 10px;
+    flex: 1;
+}
+img{
+    margin-bottom: 30px;
+}
+}
